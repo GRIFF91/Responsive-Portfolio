@@ -245,8 +245,11 @@
    float: left;
    }
    .sidebar {
-      float: left;
-   }
+      float: left;}
+   .container {
+         max-width: 980px;
+      }
+   
 }
 
  /*media querries 768px */
@@ -256,6 +259,9 @@
       }
       .sidebar {
          float: left;
+      }
+      .container {
+         max-width: 768px;
       }
 }
 
@@ -268,6 +274,9 @@
    .sidebar {
       float: left;
    }
+   .container {
+         max-width: 640px;
+      }
 
 }
 
